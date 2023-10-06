@@ -21,7 +21,7 @@
     <img {src} alt="A portrait of me"/>
 </div>   
 <div class="gif">
-    <img src="https://media2.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif?cid=ecf05e473cp9lm2c2qafqqv1y0z60x4k4xhxf2883t3hpc61&ep=v1_gifs_related&rid=giphy.gif&ct=g" alt="GIF"/>
+    <img src="https://raw.githubusercontent.com/punitkmryh/punitkmryh/master/Developer.gif" alt="GIF"/>
 </div>
  
 </body>
@@ -34,11 +34,12 @@
     padding: 0;
     box-sizing: border-box;
     }
-    body {
-    background-color: #eaeff2; 
+    body { 
+    /*background-image: url('http://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9');
+    background-repeat: no-repeat;*/
+    background-size: cover;
     margin: 0; 
     font-family: Arial, sans-serif;
-    scroll-behavior: auto; 
 }
 
 .container {
@@ -55,6 +56,7 @@
     position: absolute;
     top : 30%;
     margin-left: 1%;
+    right: 0%;
 }
 
 .gif img {
@@ -148,14 +150,15 @@ nav a:hover {
         height: 14vh;
     }
     .gif{
-        margin-left: 87%;
-        top : 0%;
+        position: absolute;
+        right: 50%;
+        top : 38%;
+
     }
     .gif img {
         position:absolute;
-        width: 15vh;  
-        height: 14vh;
-        right: -8vh;
+        width: 50vh;  
+        height: 35vh;
     }
 }
 
@@ -191,14 +194,16 @@ nav a:hover {
         height: 12vh;  
     }
     .gif{
-      margin-top: 0.5vh;
-      left: -5%;
+      position: absolute;
+      top: 47%;
+      right: 84%;
     }
 
     .gif img {
         position: absolute;
-        height: 11vh;
-        width: 12vh;  
+        height: 25vh;
+        width: 30vh;  
     }
 }
+
 </style>
