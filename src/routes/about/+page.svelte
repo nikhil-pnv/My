@@ -85,14 +85,14 @@
         font-size: 1rem;
         margin-top: 9%;
         position: absolute;
-        top: 30%;
+        top: 72%;
         left: 40%;
     }
 
     .card {
         width: 95%;
         position: absolute;
-        top: 80%;
+        top: 75%;
         left: 3%;
     }
 }
