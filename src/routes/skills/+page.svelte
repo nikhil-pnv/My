@@ -69,9 +69,9 @@
 <div class="card-programming">
     <div>
        <ul>
-           <li><strong>C programming</strong></li>
+           <li><strong>C </strong></li>
            <li><strong>Python</strong></li>
-           <li><strong>Java Basics</strong></li>
+           <li><strong>Java </strong></li>
         </ul>
     </div>
 </div>
@@ -141,7 +141,7 @@
     body {
         margin: 0;
         height: 100vh; 
-        overflow-y: auto; /* If content exceeds the viewport height, make it scrollable */
+        overflow-y: auto; 
         flex-wrap: wrap; 
 }
     .card-programming{
@@ -149,13 +149,15 @@
         transition: 0.3s;
         width: 40%;
         position: absolute;
-        top : 130%;
+        top : 50%;
         height : 15%;
         width : 20%;
         right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -164,13 +166,15 @@
         transition: 0.3s;
         width: 40%;
         position: absolute;
-        top : 130%;
+        top : 50%;
         height : 25%;
         width : 20%;
         right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -179,13 +183,15 @@
         transition: 0.3s;
         width: 40%;
         position: absolute;
-        top : 130%;
+        top : 50%;
         height : 15%;
         width : 20%;
         right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -194,13 +200,15 @@
         transition: 0.3s;
         width: 40%;
         position: absolute;
-        top : 130%;
+        top : 50%;
         height : 15%;
         width : 20%;
         right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -209,13 +217,15 @@
         transition: 0.3s;
         width: 15%;
         position: absolute;
-        top : 130%;
+        top : 50%;
         height : 25%;
         width : 20%;
         right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -224,19 +234,21 @@
         transition: 0.3s;
         width: 40%;
         position: absolute;
-        top : 130%;
+        top : 50%;
         height : 15%;
         width : 15%;
         right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
     .btns{ 
-        margin-top : 0%;
-        right : 85%;
+        margin-top : 5%;
+        margin-left : 2%;
     }
 
     .btns button{
@@ -262,60 +274,88 @@
         background-color: #333;
     }
 
-    /* ... Your existing CSS styles ... */
-
-/* For tablets and smaller devices */
 @media (max-width: 768px) {
     .btns {
-        position: absolute; /* Adjusted position */
-        top: 75%;
-        right: 75%; /* Adjusted position */
+        position: absolute; 
+        top: 30%;
+        right: 80%;
     }
 
     .btns button {
-        font-size: 15px; /* Smaller font size */
-        width: 150px; /* Adjusted width */
-        height: 42px; /* Adjusted height */
+        font-size: 15px; 
+        width: 150px; 
+        height: 42px; 
     }
 
-    .card-programming, .card-front, .card-back, .card-data, .card-test, .card-manage {
-        width: 50%; /* Increase width to utilize space */
+    .card-programming, .card-front, .card-back, .card-data, .card-manage {
+        max-width: 30%; 
+        height: 15%;
         position: absolute;
-        top: 95%;
-        right: 15%; /* Center the card */
+        top: 35%;
+        right: 55%;
+    }
+    .card-test{
+        max-width: 30%; 
+        height: 20%;
+        position: absolute;
+        top: 35%;
+        right: 55%;
     }
 
 }
 
-/* For mobile devices */
 @media (max-width: 480px) {
     .btns {
-        top: 90%;
-        right: 70%;
-        flex-direction: column; /* Stack buttons vertically */
+        top: 30%;
+        right: 55%;
+    
+         
     }
 
     .btns button {
-        font-size: 12px; /* Even smaller font size */
-        width: 130px; /* Adjusted width */
-        height: 30px; /* Adjusted height */
-        margin-bottom: 5px; /* Add some space between stacked buttons */
+        font-size: 12px; 
+        width: 130px; 
+        height: 30px; 
+        margin-bottom: 5px;
     }
 
-    .card-programming, .card-front, .card-back, .card-data, .card-manage {
-        width: 50%; /* Almost full width */
-        height: 40%;
-        right: 2%; /* Center the card */
-        top: 120%; /* Adjusted top position */
+    .card-programming{
+        width: 50%; 
+        max-height: 13%;
+        right: 10%; 
+        top: 32%; 
+
+    } .card-front{
+        width: 50%; 
+        max-height: 15%;
+        right: 7%; 
+        top: 33%; 
+    } 
+    .card-back{
+        width: 50%; 
+        max-height: 10%;
+        right: 0%; 
+        top: 33%; 
+    } 
+    .card-data{
+        width: 45%; 
+        max-height: 10%;
+        right: 2%; 
+        top: 33%; 
+
+    } 
+    .card-manage {
+        width: 50%;
+        max-height: 15%;
+        right: 0%; 
+        top: 30%;
     }
     .card-test{
-        width : -10%;
-        height: 50%;
-        right: 0%; /* Center the card */
-        top: 120%;
-    }
-
-    
+        max-width:20%;
+        height: 20%;
+        right: 18%; 
+        top: 30%;
+    }    
 }
 
 </style>
