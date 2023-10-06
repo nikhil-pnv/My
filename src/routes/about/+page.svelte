@@ -3,7 +3,7 @@
 </script>
 <body>
 <div class="container">
-    <p class="about">About Me</p>
+    <p class="about">ABOUT</p>
     <div class="card">
         <div class="text">
             <p>{@html aboutText}</p>
@@ -27,16 +27,19 @@
 
 .about {
     text-align: center;
-    margin-top: 1%;
     font-size: 2rem;
     font-weight: bold;
     color: blue;
+    position: absolute;
+    right: 60%;
+    top: 25%;
 }
 
 .text p {
     line-height: 1.6;
     word-spacing: 0.2em;
-    color: rgb(229, 73, 11);
+    color: rgb(252, 44, 7);
+    font-weight: bolder;
     padding: 1rem;
 }
 
@@ -46,40 +49,51 @@
     width: 50%;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(182, 195, 222, 0.75);
+    background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
     margin-top: 1%;
+    position: absolute;
+    right: 40%;
+    top: 40%;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     .about {
         font-size: 1.5rem;
         position: absolute;
-        top: 70%;
+        top: 30%;
+        right: 45%;
     }
 
     .card {
         position: absolute;
-        top: 80%;
-        width: 80%;
+        top: 39%;
+        width: 100%;
+        left: 5%;
     }
 }
 
 @media (max-width: 480px) {
     .about {
-        font-size: 1.2rem;
-        margin-top: 6%;
+        font-size: 1rem;
+        margin-top: 9%;
+        position: absolute;
+        top: 30%;
+        left: 40%;
     }
 
     .card {
-        width: 90%;
-        margin-top: 3%;
+        width: 95%;
+        position: absolute;
+        top: 35%;
+        left: 3%;
     }
 }
 
