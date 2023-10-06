@@ -156,6 +156,37 @@ nav a:hover {
     }
 }
 
+@media (min-width: 481px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mypic img {
+        position: absolute;
+        right : 80%;
+        top: 23%;
+        width: 120px;
+        height: 110px;
+    }
+    .gif img {
+        position:absolute;
+        width: 150px;  
+        height: 110px;
+        right: 8%;
+        bottom : 63%;
+    }
+}
+
+/* Styles for desktops and large screens */
+@media (min-width: 769px) {
+    /* Add desktop styles here. For example, you might want the navbar horizontal for larger screens: */
+    nav {
+        flex-direction: row;
+        gap: 20px;
+    }
+    /* Add additional styles for larger screens if needed */
+}
 
 
 </style>
