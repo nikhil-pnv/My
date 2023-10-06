@@ -129,12 +129,14 @@
      body {
         margin: 0;
         height: 100vh; 
-        overflow-y: auto; /* If content exceeds the viewport height, make it scrollable */
+        overflow-y: auto; 
         flex-wrap: wrap; 
+        scroll-behavior: auto;
     }
     .btns{ 
         position: absolute;
-        right : 60%;
+        right : 80%;
+        margin-top: 4%;
     }
 
     .btns button{
@@ -163,13 +165,15 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         position: absolute;
-        top : 99%;
+        top : 28%;
         height : 7%;
         width : 20%;
-        right : 30%;
+        right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;        
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -177,13 +181,15 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         position: absolute;
-        top : 111%;
+        top : 40%;
         height : 7%;
         width : 20%;
-        right : 30%;
+        right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;        
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -191,13 +197,15 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         position: absolute;
-        top : 124%;
+        top : 52%;
         height : 7%;
         width : 20%;
-        right : 30%;
+        right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;       
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -205,13 +213,15 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         position: absolute;
-        top : 137%;
+        top : 63%;
         height : 7%;
         width : 20%;
-        right : 30%;
+        right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;        
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -219,13 +229,15 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         position: absolute;
-        top : 150%;
+        top : 75%;
         height : 7%;
         width : 20%;
-        right : 30%;
+        right : 50%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;        
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
@@ -233,131 +245,144 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         position: absolute;
-        top : 163%;
+        top : 88%;
         height : 7%;
         width : 20%;
-        right : 30%;
+        right : 50%;
+        background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(182, 195, 222, 0.75);
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
     }
 
     @media (max-width: 768px) {
     .btns {
-        position: absolute; /* Adjusted position */
-        top: 75%;
-        right: 75%; /* Adjusted position */
+        position: absolute; 
+        top: 35%;
+        right: 85%; 
     }
 
     .btns button {
-        font-size: 15px; /* Smaller font size */
-        width: 150px; /* Adjusted width */
-        height: 42px; /* Adjusted height */
+        font-size: 0.8rem; 
+        width: 90%; 
+        height: 90%; 
+
     }
 
     .card-git{
-        width: 23%; /* Increase width to utilize space */
+        width: 18%; 
         position: absolute;
-        top: 74%;
-        right: 35%;
-        height: 6%;
+        top: 38%;
+        font-size: 0.8rem;
+        right: 58%;
+        height: 5%;
     }
     .card-linkedin{
-        width: 23%; /* Increase width to utilize space */
+        width: 20%; 
         position: absolute;
-        top: 84%;
-        right: 35%;
-        height: 6%;
+        font-size: 0.8rem;
+        top: 43%;
+        right: 58%;
+        height: 5%;
     }
     .card-gmail{
-        width: 35%; /* Increase width to utilize space */
+        width: 30%; 
         position: absolute;
-        top: 95%;
-        right: 30%;
-        height: 6%;
+        font-size: 0.7rem;
+        top: 50%;
+        right: 54%;
+        height: 4%;
 
     }
     .card-insta{
-        width: 25%; /* Increase width to utilize space */
+        width: 20%; 
         position: absolute;
-        top: 105%;
-        right: 35%;
-        height: 6%;
+        font-size: 0.8rem;
+        top: 56%;
+        right: 58%;
+        height: 4%;
 
     }
     .card-facebook{
-        width: 25%; /* Increase width to utilize space */
+        width: 20%; 
         position: absolute;
-        top: 115%;
-        right: 35%;
-        height: 6%;
+        font-size: 0.8rem;
+        top: 62%;
+        right: 61%;
+        height: 4%;
     }
     .card-contact {
-        width: 25%; /* Increase width to utilize space */
+        width: 20%; 
         position: absolute;
-        top: 125%;
-        right: 35%; /* Center the card */
-        height: 6%;
+        font-size: 0.8rem;
+        top: 68%;
+        right: 60%; 
+        height: 4%;
     }
 
 }
 
-/* For mobile devices */
 @media (max-width: 480px) {
     .btns {
-        top: 90%;
-        right: 70%;
-        flex-direction: column; /* Stack buttons vertically */
+        top: 30%;
+        right: 75%;
+        gap: 0.5rem;
+        
     }
 
     .btns button {
-        font-size: 12px; /* Even smaller font size */
-        width: 130px; /* Adjusted width */
-        height: 30px; /* Adjusted height */
-        margin-bottom: 5px; /* Add some space between stacked buttons */
+        font-size: 10px; 
+        width: 90%; 
+        height: 30px;
+        margin-bottom: 5px; 
     }
 
     .card-git{
-        width: 40%; /* Almost full width */
-        height: 8%;
-        right: 10%; /* Center the card */
-        top: 89%; /* Adjusted top position */
+        font-size: 0.7rem;
+        width: 40%; 
+        height: 4%;
+        right: 10%; 
+        top: 35%;
     } 
     .card-linkedin{
-        width: 40%; /* Almost full width */
-        height: 8%;
-        right: 10%; /* Center the card */
-        top: 103%; /* Adjusted top position */
+        font-size: 0.7rem;
+        width: 50%; 
+        height: 4%;
+        right: 7%; 
+        top: 35%; 
     } 
     .card-gmail{
-        width: 60%; /* Almost full width */
-        height: 8%;
-        right: 2%; /* Center the card */
-        top: 118%; /* Adjusted top position */
+        font-size: 0.7rem;
+        width: 65%; 
+        height: 4%;
+        right: 5%; 
+        top: 35%; 
     }
     .card-insta{
-        width: 40%; /* Almost full width */
-        height: 8%;
-        right: 10%; /* Center the card */
-        top: 133%; /* Adjusted top position */
+        font-size: 0.7rem;
+        width: 52%; 
+        height: 4%;
+        right: 10%; 
+        top: 35%; 
     }
     .card-facebook{
-        width: 40%; /* Almost full width */
-        height: 8%;
-        right: 10%; /* Center the card */
-        top: 148%; /* Adjusted top position */
+        font-size: 0.7rem;
+        width: 55%; 
+        height: 4%;
+        right: 10%; 
+        top: 35%; 
     }
     .card-contact {
-        width: 40%; /* Almost full width */
-        height: 8%;
-        right: 10%; /* Center the card */
-        top: 163%; /* Adjusted top position */
+        font-size: 0.7rem;
+        width: 50%; 
+        height: 4%;
+        right: 10%; 
+        top: 35%; 
     }
     
 }
-
-
 
 </style>
