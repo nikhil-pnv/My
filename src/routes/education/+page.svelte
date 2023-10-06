@@ -73,21 +73,26 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 40%;
-    max-width: 400px; /* set a max-width so it doesn't get too wide on large screens */
-    margin: 2rem auto; /* centers the card horizontally and provides vertical spacing */
+    max-width: 400px; 
+    margin: 2rem auto; 
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(182, 195, 222, 0.75);
+    background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    position: relative; /* this makes it a reference point for the absolute positioned child elements */
+    position: absolute; 
+    top: 45%;
+    right: 40%;
+
 }
 
 .btns {
-    display: flex;
     gap: 1rem;
-    margin-top: 2rem;
-    justify-content: center;
+    position: absolute;
+    top:40%;
+    margin-left: 8%;
 }
 
 .btns button {
@@ -113,24 +118,20 @@
     color: #fff;
     background-color: #333;
 }
-/* For tablets and smaller devices */
-/* ... Previous CSS styles ... */
+
 
 @media (max-width: 768px) {
     .card {
-        width: 80%;
+        width: 30%;
         position: absolute;
-        top : 75%;
-        right: 20%;
-        margin: 2rem auto; /* Use margins to provide spacing */
+        margin-right: 6%;
+        top : 40%;
     }
 
     .btns {
-        margin-top: 0rem;
         gap: 1rem;
-        flex-direction: column; /* Stack buttons vertically */
-        position: absolute;
-        top : 75%;
+        margin-top: 1%;
+        margin-left: 1%;
     }
 
     .btns button {
@@ -142,22 +143,24 @@
 
 @media (max-width: 480px) {
     .btns {
-        flex-direction: column;
-        gap: 1rem;
-        margin-top: 3rem;  /* Use margins instead of positioning */
+        flex-direction: row;
+        position: absolute;
+        top: 50%;
+
     }
 
     .btns button {
-        width: 90px;
+        width: 90%;
         font-size: 0.7rem;
     }
 
     .card{
         width: 70%;
-        margin-top: 5rem ;  
-        right: 5%;
+        margin-top: 5rem ;
+        position: absolute;
+        top: 21%;  
+        right: 2%;
     }
 }
-
 
 </style>
