@@ -15,7 +15,7 @@
         }
       }, delay);
       
-      return () => clearInterval(interval); // Cleanup on component destroy
+      return () => clearInterval(interval); 
     });
   </script>
   <div class="typing-effect">{typing}</div>
@@ -27,10 +27,10 @@
     overflow: hidden;
     animation: blinkingCursor 5s infinite;
     position: absolute;
-    color: rgb(229, 73, 11);
+    color: rgb(63, 63, 242);
     text-shadow: 1px 1px #252424;
-    top: 90%;
-    left: 25%;
+    top: 40vh;
+    left: 25vh;
     font-weight: 900;
     font-size: 2rem;
     text-align: center;
@@ -44,23 +44,21 @@
     100% { opacity: 1; }
 }
 
-/* For tablets and smaller devices */
 @media (max-width: 768px) {
     .typing-effect {
         position: absolute;
-        font-size: 2rem;
-        top: 75%;   /* You can adjust these based on how it looks on tablet screens */
-        left: 15%;
+        font-size: 1rem;
+        left: 10%;
+        margin-top: 1%;
+        margin-right: 0%;
     }
 }
-
-/* For mobile devices */
 @media (max-width: 480px) {
     .typing-effect {
         position: absolute;
         font-size: 0.8rem;
-        top: 75%;   /* You can adjust these based on how it looks on mobile screens */
-        left : 25%;
+        top: 35%; 
+        left : 17%;
     }
 }
 
