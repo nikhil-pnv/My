@@ -1,8 +1,6 @@
 <script>
     import { fly } from 'svelte/transition';
 
-
-
     let projects = [
         '<ul><li><strong>Project Name</strong>: Blog Website </li> <li><strong>Tech Stacks</strong> : HTML, CSS, JavaScript, ReactJs, NodeJs, MongoDB, ExpressJs </li><li><strong>Description</strong> : Developed a blogging website that allows users to create their own blog and users can publish their thoughts which can be read by all the users.</li> <li><strong>Repository</strong> : <a href="https://github.com/nikhil-pnv/BlogApp">source code</a></li></ul>',
         '<ul><li><strong>Project Name</strong>: Food Recipes </li> <li><strong>Tech Stacks</strong> : HTML, CSS, JavaScript, ReactJs, NodeJS, API Calls, MealDB API </li><li><strong>Description</strong> : This website is designed using reactjs and API calls where users can find recipes and related video of foof items recipes.</li> <li><strong>Repository</strong> : <a href="https://github.com/nikhil-pnv/FoodRecipe">source code</a></li> <li><strong>Project Link</strong> : <a href="https://pnv-food-recipe.netlify.app"> click here</a></li></ul>',
@@ -46,9 +44,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh; /* Setting the body height to the viewport height */
-    overflow-y: auto; /* If content exceeds the viewport height, make it scrollable */
-    flex-wrap: wrap; /* Wrap the flex items if there isn't enough space */
+    height: 100vh; 
+    overflow-y: auto; 
+    flex-wrap: wrap;
 }
 
 
@@ -58,30 +56,35 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 600px;
-    margin: 20px auto; /* Added vertical margin for spacing */
+    margin: 20px auto;
     text-align: left; 
-    background-color: rgba(182, 195, 222, 0.75);
+    background-image: url('http://images.unsplash.com/photo-1523878288860-7ad281611901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHx8MHx8fHwxNjIxNjIxNDk3&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-repeat: no-repeat;
     line-height: 1.6;
     backdrop-filter: blur(16px) saturate(180%);
+    margin-left: 5%;
+    margin-top: 4%;
 }
 
 button {
     padding: 10px 15px;
     margin: 5px;
     font-size: 16px;
-    cursor: pointer; /* Indicates clickable items */
-    transition: background-color 0.3s; /* Background transition effect on hover */
+    margin-left: 1%;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
 button:hover {
-    background-color: green; /* Change background color on hover */
+    background-color: green; 
 }
 
-/* For tablets and smaller devices */
+
 @media (max-width: 768px) {
 
     .card {
-        max-width: 90%;
+        max-width: 30%;
         padding: 15px;
         margin-top: 1%;
     }
@@ -92,12 +95,12 @@ button:hover {
     }
 }
 
-/* For mobile devices */
 @media (max-width: 480px) {
     .card {
-        max-width: 100%;
+        max-width: 40%;
         padding: 10px;
-        margin-top: 5%;
+        margin-top: 13%;
+        margin-left: 1%;
     }
 
     button {
@@ -106,6 +109,5 @@ button:hover {
         margin: 5px;
     }
 }
-
   
 </style>
