@@ -151,7 +151,7 @@ nav a:hover {
     }
     .gif{
         position: absolute;
-        right: 50%;
+        right: 60%;
         top : 38%;
 
     }
