@@ -92,7 +92,7 @@
     .card {
         width: 95%;
         position: absolute;
-        top: 65%;
+        top: 90%;
         left: 3%;
     }
 }
